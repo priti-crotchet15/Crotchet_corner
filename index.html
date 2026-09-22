@@ -4,77 +4,135 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Crotchet Corner | Handmade with Love</title>
-<meta name="description" content="Crotchet Corner - handmade crochet items, clips, flower bouquets, keychains and gifts.">
+<meta name="description" content="Crotchet Corner - handmade crochet products, keyrings, clips and gifts.">
 <style>
-:root{--pink:#f7b6cf;--pink2:#ffe7f0;--black:#171317;--white:#fff;--muted:#6e6268}
+:root{--pink:#f7a9c9;--pink2:#ffe6f0;--pink3:#d94f89;--black:#171317;--white:#fff;--muted:#6e6268}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:Arial,Helvetica,sans-serif;background:#fffafa;color:var(--black);line-height:1.5}
-header{position:sticky;top:0;z-index:10;background:#fff8fbdd;backdrop-filter:blur(12px);border-bottom:1px solid #f3d8e3}
+header{position:sticky;top:0;z-index:10;background:#fff8fbef;backdrop-filter:blur(12px);border-bottom:1px solid #f3d8e3}
 .nav{max-width:1100px;margin:auto;padding:15px 20px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-size:1.35rem;font-weight:800}.logo span{color:#d94f89}
-nav a{color:#171317;text-decoration:none;margin-left:20px;font-weight:700;font-size:.95rem}
+.logo{font-size:1.35rem;font-weight:800} .logo span{color:var(--pink3)}
+nav a{color:var(--black);text-decoration:none;margin-left:20px;font-weight:700;font-size:.95rem}
 .hero{background:linear-gradient(135deg,#fff,#ffe5ef);padding:75px 20px 65px;text-align:center}
-.badge{display:inline-block;background:#171317;color:#fff;padding:7px 14px;border-radius:30px;font-size:.8rem;letter-spacing:.5px;margin-bottom:18px}
+.badge{display:inline-block;background:var(--black);color:#fff;padding:7px 14px;border-radius:30px;font-size:.8rem;letter-spacing:.5px;margin-bottom:18px}
 h1{font-size:clamp(2.3rem,7vw,4.8rem);line-height:1.02;margin-bottom:18px}
-h1 span{color:#d94f89}
-.hero p{max-width:650px;margin:0 auto 28px;color:var(--muted);font-size:1.05rem}
-.btn{display:inline-block;background:#171317;color:#fff;text-decoration:none;padding:13px 22px;border-radius:30px;font-weight:800;margin:5px}
+h1 span{color:var(--pink3)} .hero p{max-width:680px;margin:0 auto 28px;color:var(--muted);font-size:1.05rem}
+.btn{display:inline-block;background:var(--black);color:#fff;text-decoration:none;padding:13px 22px;border-radius:30px;font-weight:800;margin:5px}
 .btn.pink{background:#e25b94}
 section{max-width:1100px;margin:auto;padding:65px 20px}
-.title{text-align:center;margin-bottom:32px}.title h2{font-size:2rem}.title p{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
-.card{background:#fff;border:1px solid #f1dce5;border-radius:22px;overflow:hidden;box-shadow:0 8px 25px #1b0c1410}
-.photo{height:210px;background:linear-gradient(135deg,#ffeaf2,#f8b7d0);display:flex;align-items:center;justify-content:center;font-size:4rem}
-.card-body{padding:18px}.card h3{margin-bottom:5px}.card p{color:var(--muted);font-size:.9rem;margin-bottom:10px}
-.price{font-weight:900;font-size:1.15rem;margin-bottom:10px}
-.smallbtn{display:inline-block;padding:9px 14px;border-radius:20px;background:#171317;color:#fff;text-decoration:none;font-size:.85rem;font-weight:700}
-.about{background:#171317;color:#fff;max-width:none}.about-inner{max-width:900px;margin:auto;padding:0 20px;text-align:center}.about p{color:#ddd;margin-top:12px}
+.title{text-align:center;margin-bottom:32px} .title h2{font-size:2rem} .title p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border:1px solid #f1dce5;border-radius:22px;overflow:hidden;box-shadow:0 8px 25px #1b0c1410;display:flex;flex-direction:column}
+.photo{height:270px;background:var(--pink2);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.card-body{padding:18px;display:flex;flex-direction:column;flex:1}
+.card h3{margin-bottom:6px;font-size:1.08rem} .card p{color:var(--muted);font-size:.9rem;margin-bottom:10px}
+.price{font-weight:900;font-size:1.15rem;margin-bottom:14px;color:#b73870}
+.smallbtn{display:inline-block;padding:10px 14px;border-radius:22px;background:var(--black);color:#fff;text-decoration:none;font-size:.85rem;font-weight:700;text-align:center;margin-top:auto}
+.about{background:var(--black);color:#fff;max-width:none} .about-inner{max-width:900px;margin:auto;padding:0 20px;text-align:center}
+.about p{color:#ddd;margin-top:12px}
 .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;margin-top:28px}
-.feature{background:#fff;color:#171317;padding:20px;border-radius:18px}.feature b{display:block;margin-bottom:5px}
+.feature{background:#fff;color:var(--black);padding:20px;border-radius:18px} .feature b{display:block;margin-bottom:5px}
 .contact{background:#ffe8f1;max-width:none;text-align:center}
-footer{background:#171317;color:#fff;text-align:center;padding:25px 15px;font-size:.9rem}
-.note{font-size:.8rem;color:#7d6e75;margin-top:15px}
-@media(max-width:650px){nav a{margin-left:9px;font-size:.8rem}.nav{padding:13px 14px}.hero{padding-top:55px}section{padding:50px 15px}}
+footer{background:var(--black);color:#fff;text-align:center;padding:25px 15px;font-size:.9rem}
+.note{font-size:.9rem;color:#7d6e75;margin-top:15px}
+.custom{display:inline-block;margin-top:12px;background:#fff;color:#b73870;border:1px solid #f0b4cc;padding:10px 15px;border-radius:20px;font-weight:800}
+@media(max-width:650px){nav a{margin-left:9px;font-size:.8rem}.nav{padding:13px 14px}.hero{padding-top:55px}section{padding:50px 15px}.photo{height:250px}}
 </style>
 </head>
 <body>
-<header>
-  <div class="nav">
-    <div class="logo">Crotchet <span>Corner</span> ♡</div>
-    <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
-  </div>
-</header>
+<header><div class="nav">
+  <div class="logo">Crotchet <span>Corner</span> ♡</div>
+  <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</div></header>
 
 <main>
 <section class="hero">
   <div class="badge">HANDMADE • CUTE • CUSTOM</div>
   <h1>Made by hand,<br><span>made with love.</span></h1>
-  <p>Discover charming handmade crochet items, flower bouquets, clips, keychains and thoughtful gifts from Crotchet Corner.</p>
+  <p>Beautiful handmade crochet creations, keyrings, clips and gifts — carefully crafted for you.</p>
   <a class="btn pink" href="#shop">Shop Collection</a>
-  <a class="btn" href="https://wa.me/918101649529?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20know%20more%20about%20your%20products." target="_blank">WhatsApp Us</a>
+  <a class="btn" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20know%20more%20about%20your%20products." target="_blank" rel="noopener">WhatsApp Us</a>
 </section>
 
 <section id="shop">
-  <div class="title"><h2>Our Collection</h2><p>Choose your favourite handmade piece.</p></div>
+  <div class="title"><h2>Our Collection</h2><p>Choose your favourite handmade piece.</p><div class="custom">✨ Customised orders available • Price depends on customisation</div></div>
   <div class="grid">
-    <article class="card"><div class="photo">🧶</div><div class="card-body"><h3>Handmade Crochet Items</h3><p>Unique handmade crochet creations.</p><div class="price">Starting ₹—</div><a class="smallbtn" href="https://wa.me/918101649529?text=Hi!%20I%20am%20interested%20in%20your%20handmade%20crochet%20items." target="_blank">Enquire</a></div></article>
-    <article class="card"><div class="photo">🌸</div><div class="card-body"><h3>Flower Bouquets</h3><p>Beautiful crochet flowers that last.</p><div class="price">Starting ₹—</div><a class="smallbtn" href="https://wa.me/918101649529?text=Hi!%20I%20am%20interested%20in%20a%20crochet%20flower%20bouquet." target="_blank">Enquire</a></div></article>
-    <article class="card"><div class="photo">🎀</div><div class="card-body"><h3>Clips</h3><p>Cute handmade clips for everyday style.</p><div class="price">Starting ₹—</div><a class="smallbtn" href="https://wa.me/918101649529?text=Hi!%20I%20am%20interested%20in%20your%20handmade%20clips." target="_blank">Enquire</a></div></article>
-    <article class="card"><div class="photo">🍓</div><div class="card-body"><h3>Keychains</h3><p>Small, cute and giftable handmade keychains.</p><div class="price">Starting ₹—</div><a class="smallbtn" href="https://wa.me/918101649529?text=Hi!%20I%20am%20interested%20in%20your%20keychains." target="_blank">Enquire</a></div></article>
-    <article class="card"><div class="photo">🎁</div><div class="card-body"><h3>Gift Items</h3><p>Sweet handmade gifts for special moments.</p><div class="price">Starting ₹—</div><a class="smallbtn" href="https://wa.me/918101649529?text=Hi!%20I%20am%20interested%20in%20your%20gift%20items." target="_blank">Enquire</a></div></article>
-    <article class="card"><div class="photo">🌷</div><div class="card-body"><h3>Crochet Flowers</h3><p>Handcrafted flowers made to keep forever.</p><div class="price">Starting ₹—</div><a class="smallbtn" href="https://wa.me/918101649529?text=Hi!%20I%20am%20interested%20in%20your%20crochet%20flowers." target="_blank">Enquire</a></div></article>
+    
+      <article class="card">
+        <div class="photo"><img src="unicorn.jpg" alt="Crochet Unicorn"></div>
+        <div class="card-body">
+          <h3>Crochet Unicorn</h3>
+          <p>Cute handmade crochet unicorn key ring.</p>
+          <div class="price">₹200</div>
+          <a class="smallbtn" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20order%20the%20Crochet%20Unicorn%20(₹200)." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="photo"><img src="strawberry-keyring.jpg" alt="Crochet Strawberry Key Ring"></div>
+        <div class="card-body">
+          <h3>Crochet Strawberry Key Ring</h3>
+          <p>Adorable handmade strawberry key ring.</p>
+          <div class="price">₹55</div>
+          <a class="smallbtn" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20order%20the%20Crochet%20Strawberry%20Key%20Ring%20(₹55)." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="photo"><img src="love-keyring.jpg" alt="Love Keyring"></div>
+        <div class="card-body">
+          <h3>Love Keyring</h3>
+          <p>Handmade crochet love keyring. Price is per piece.</p>
+          <div class="price">₹50 / piece</div>
+          <a class="smallbtn" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20order%20the%20Love%20Keyring%20(₹50%20per%20piece)." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="photo"><img src="bubu-dudu-keyring.jpg" alt="Bubu & Dudu Doll Key Ring"></div>
+        <div class="card-body">
+          <h3>Bubu & Dudu Doll Key Ring</h3>
+          <p>Cute handmade Bubu & Dudu doll key ring. Price is per piece.</p>
+          <div class="price">₹85 / piece</div>
+          <a class="smallbtn" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20order%20the%20Bubu%20%26%20Dudu%20Doll%20Key%20Ring%20(₹85%20per%20piece)." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="photo"><img src="sunflower-hairclip.jpg" alt="Sunflower Hairclip"></div>
+        <div class="card-body">
+          <h3>Sunflower Hairclip</h3>
+          <p>Handmade crochet sunflower hair clip.</p>
+          <div class="price">₹45</div>
+          <a class="smallbtn" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20order%20the%20Sunflower%20Hairclip%20(₹45)." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="photo"><img src="airpods-bag.jpg" alt="AirPods Bag"></div>
+        <div class="card-body">
+          <h3>AirPods Bag</h3>
+          <p>Cute handmade crochet bag for your AirPods.</p>
+          <div class="price">₹120</div>
+          <a class="smallbtn" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20order%20the%20AirPods%20Bag%20(₹120)." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="photo"><img src="rose-crochet-clip.jpg" alt="Rose Crochet Clip"></div>
+        <div class="card-body">
+          <h3>Rose Crochet Clip</h3>
+          <p>Handmade crochet rose clip.</p>
+          <div class="price">₹55</div>
+          <a class="smallbtn" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20order%20the%20Rose%20Crochet%20Clip%20(₹55)." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
   </div>
-  <p class="note">Replace the “Starting ₹—” text with your actual prices and replace the emoji placeholders with your product photos.</p>
 </section>
 
 <section class="about" id="about">
   <div class="about-inner">
     <h2>Why Crotchet Corner?</h2>
-    <p>Every piece is handmade with patience and love, making each creation a little more special than a mass-produced product.</p>
+    <p>Every piece is handmade with patience and love, making each creation unique and special.</p>
     <div class="features">
       <div class="feature"><b>🧶 Handmade</b>Made with care.</div>
-      <div class="feature"><b>💗 Custom Orders</b>Ask about customization.</div>
+      <div class="feature"><b>💗 Custom Orders</b>Customisation available.</div>
       <div class="feature"><b>🎁 Gift Ready</b>Perfect for special moments.</div>
       <div class="feature"><b>💬 Easy Ordering</b>Order directly on WhatsApp.</div>
     </div>
@@ -82,12 +140,12 @@ footer{background:#171317;color:#fff;text-align:center;padding:25px 15px;font-si
 </section>
 
 <section id="contact" class="contact">
-  <div class="title"><h2>Ready to order?</h2><p>Message Crotchet Corner on WhatsApp for price, availability and customization.</p></div>
-  <a class="btn pink" href="https://wa.me/918101649529?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20place%20an%20order." target="_blank">Order on WhatsApp</a>
-  <p class="note">UPI: Add your UPI ID in the setup guide before accepting payments.</p>
+  <div class="title"><h2>Ready to order?</h2><p>Message Crotchet Corner on WhatsApp for orders, availability and customisation.</p></div>
+  <a class="btn pink" href="https://wa.me/917063031631?text=Hi%20Crotchet%20Corner!%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+  <p class="note">WhatsApp: +91 70630 31631</p>
+  <p class="note">UPI payment can be added once you provide your UPI ID.</p>
 </section>
 </main>
-
 <footer>© 2026 Crotchet Corner • Handmade with love ♡</footer>
 </body>
 </html>
